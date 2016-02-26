@@ -1,0 +1,30 @@
+﻿{
+	"Tacos" : {
+		"model":"tacotopper2",
+		"price": 160.0,
+		"products": {
+			"Taco": {
+				"model":"taco",
+				"price": 1.5,
+				"type" : "consumable",
+				"temprature" : "hot",
+                "hand" : "left",
+				"consumeanimation" : "generic", 
+				"portions" : 10,
+				"ingredients": {
+					"ingredient1" :{
+					 "price": 1.0,
+					 "amount" : 1.0,
+					"tweakable" : false,
+					"effects": [
+					{
+						"affectStat" : "hunger",
+						"amount" : -.4
+					}]
+						
+					}
+				}
+			}
+		}
+	}
+}
